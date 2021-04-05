@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+header {
+    display: flex;
+    justify-content: space-between;   /* coloca nas extremidades */
+    background-color: #918EF4;
+    border-bottom: 10px solid black;   /* borda inferior */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    
+}
+
+h1, h2, h3 {
+    display: block;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    text-shadow: 3px 3px 0px #918EF4;
+    text-align: center;
+}
+
+#ul {
+    text-align: center;
+    justify-content: center;
+    transition: none;
+    
+
+}   
+
+ul::before {  /* pseudo elemento - before/after - usar antes ou depois da tag. quadrado. */
+    content: "";  
+    background-color: #82F5B2;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    text-align: right;   /* centraliza as tags no meio */
+}
+
+a    {
+    display: inline-flex;   /* colocar um do lado do outro*/
+    align-items: center;   /* centralizar na vertical */
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif; 
+    color: #201F36;
+    font-size: 20px;
+    font-weight: 500;   /* bold - peso da fonte */
+    text-decoration: none;   /* tirar sublinhado */ 
+    margin-right: 30px;   /* espaçamento entre palavras(cada <a>) - respiro externo */
+    margin-bottom: 10px;  /* espaçamento entre palavras(cada <a>) - respiro externo */
+    
+    
+}
+
+a::before {  /* pseudo elemento - before/after - usar antes ou depois da tag. quadrado. */
+    content: "";  
+    background-color: #82F5B2;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button {
+    background-color: #82F5B2;
+    display: inline-block;   /* permite mexer na altura e largura  */
+    padding: 20px;   /* "enchimento" - bordas internas */   
+    box-shadow: 5px 5px 0px black;   /* direita (x), baixo (y), blur e cor */
+    margin-right: 0;    /* tira a margem apenas do botão */
+    margin-bottom: 0;   /* tira a margem apenas do botão */
+    transition: transform 100ms linear;
+}
+
+#img {
+    width: 60px;
+    height: 60px;
+   
+}
+
+#button:hover {
+    transform: scale(1.02);
+   /* background: #ED7B84 url(file:///C:/Users/saulim/Dropbox/programa%C3%A7%C3%A3o/github/Html%20e%20CSS%20feliz/html/assets/img/coral.png);
+    animation-delay: 0.6s;
+    background-size: 190px;
+    animation: animate 0.6s steps(8) forwards; */
+}
+
+@keyframes animate 
+{
+    0% 
+    {
+        background-position-y: 0;
+    }   
+    100%
+    {
+        background-position-y: -480px;   /* -505.75px */
+    }
+}
