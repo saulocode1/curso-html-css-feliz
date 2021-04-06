@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+body {
+    background-image: url(../assets/img/papel1.jpg);    
+    background-position-y: center;
+    background-position-x: center;
+    overflow: hidden;
+}
+
 header {
     display: flex;
     justify-content: space-between;   /* coloca nas extremidades */
@@ -10,14 +17,61 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
-    
 }
 
-h1, h2, h3 {
+section {
+    background-color: #465162;
     display: block;
+    margin-left: 95px;
+    margin-top: 108px;
+    margin-right: 727px;
+    margin-bottom: 501px;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+    box-shadow: 10px 10px 0px black;
+    width: 627px;
+    height: 184px;
+}
+
+h1 {
+    color: #82F5B2;
+    font-size: 40px;
     font-family: 'Press Start 2P', cursive;
-    color: black;
-    text-shadow: 3px 3px 0px #918EF4;
+    text-shadow: 4px 4px 0px black;
+}
+
+h2 { 
+    color: white;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 4px 4px 0px black;
+}
+
+.button1 {
+    background-color: #82F5B2;
+    display: inline-block;   
+    padding: 20px;   
+    box-shadow: 5px 5px 0px black;   
+    justify-content: center;
+    position: absolute;
+    width: 150px;
+    left: 185px;
+    top: 418px;
+    text-align: center;
+}
+
+.button2 {
+    background-color: #82F5B2;
+    display: inline-block;   
+    padding: 20px;   
+    box-shadow: 5px 5px 0px black;   
+    justify-content: center;
+    position: absolute;
+    width: 150px;
+    left: 463px;
+    top: 418px; 
     text-align: center;
 }
 
@@ -25,8 +79,6 @@ h1, h2, h3 {
     text-align: center;
     justify-content: center;
     transition: none;
-    
-
 }   
 
 ul::before {  /* pseudo elemento - before/after - usar antes ou depois da tag. quadrado. */
@@ -50,12 +102,10 @@ a    {
     font-weight: 500;   /* bold - peso da fonte */
     text-decoration: none;   /* tirar sublinhado */ 
     margin-right: 30px;   /* espaçamento entre palavras(cada <a>) - respiro externo */
-    margin-bottom: 10px;  /* espaçamento entre palavras(cada <a>) - respiro externo */
-    
-    
+    margin-bottom: 10px;  /* espaçamento entre palavras(cada <a>) - respiro externo */  
 }
 
-a::before {  /* pseudo elemento - before/after - usar antes ou depois da tag. quadrado. */
+.menu::before {  /* pseudo elemento - before/after - usar antes ou depois da tag. quadrado. */
     content: "";  
     background-color: #82F5B2;
     width: 10px;
