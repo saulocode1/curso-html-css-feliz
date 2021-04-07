@@ -1,0 +1,24 @@
+.action {
+    display: inline-flex;   /* colocar um do lado do outro*/
+    align-items: center;   /* centralizar na vertical */
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif; 
+    font-weight: 500;   /* bold - peso da fonte */
+    text-decoration: none;   /* tirar sublinhado */ 
+    margin-right: 30px;   /* espaçamento entre palavras(cada <a>) - respiro externo */
+    margin-bottom: 10px;  /* espaçamento entre palavras(cada <a>) - respiro externo */ 
+    transition: transform 100ms linear;  
+    color: white;
+    font-size: 20px;
+}
+
+.action::before {  /* pseudo elemento - before/after - usar antes ou depois da tag. quadrado. */
+    content: "";  
+    background-color: #82F5B2;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.action:hover {
+    transform: scale(1.03);
+}
