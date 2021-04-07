@@ -4,7 +4,7 @@ body {
     background-image: url(../assets/img/papel1.jpg);    
     background-position-y: center;
     background-position-x: center;
-    overflow: hidden;
+    overflow: hidden;  
 }
 
 header {
@@ -17,32 +17,18 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
-}
-
-#ul {
-    text-align: center;
-    justify-content: center;
-    transition: none;
-}   
-
-ul::before {  /* pseudo elemento - before/after - usar antes ou depois da tag. quadrado. */
-    content: "";  
-    background-color: #82F5B2;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
+    
 }
 
 nav {
     text-align: right;   /* centraliza as tags no meio */
+    
 }
 
 a    {
     display: inline-flex;   /* colocar um do lado do outro*/
     align-items: center;   /* centralizar na vertical */
     font-family: 'Fira Code', Arial, Helvetica, sans-serif; 
-    color: #201F36;
-    font-size: 20px;
     font-weight: 500;   /* bold - peso da fonte */
     text-decoration: none;   /* tirar sublinhado */ 
     margin-right: 30px;   /* espaçamento entre palavras(cada <a>) - respiro externo */
@@ -50,104 +36,11 @@ a    {
     transition: transform 100ms linear; 
 }
 
-.menu::before {  /* pseudo elemento - before/after - usar antes ou depois da tag. quadrado. */
-    content: "";  
-    background-color: #82F5B2;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
-
-#button {
-    background-color: #82F5B2;
-    display: inline-block;   /* permite mexer na altura e largura  */
-    padding: 20px;   /* "enchimento" - bordas internas */   
-    box-shadow: 5px 5px 0px black;   /* direita (x), baixo (y), blur e cor */
-    margin-right: 0;    /* tira a margem apenas do botão */
-    margin-bottom: 0;   /* tira a margem apenas do botão */
-    transition: transform 100ms linear;
-}
-
 #img {
     width: 60px;
-    height: 60px;
-   
+    height: 60px;  
 }
 
-#button:hover, .button1:hover, .button2:hover, .menu:hover {
+.menu:hover {
     transform: scale(1.03);
-   /* background: #ED7B84 url(file:///C:/Users/saulim/Dropbox/programa%C3%A7%C3%A3o/github/Html%20e%20CSS%20feliz/html/assets/img/coral.png);
-    animation-delay: 0.6s;
-    background-size: 190px;
-    animation: animate 0.6s steps(8) forwards; */
-}
-
-@keyframes animate 
-{
-    0% 
-    {
-        background-position-y: 0;
-    }   
-    100%
-    {
-        background-position-y: -480px;   /* -505.75px */
-    }
-}
-
-section {
-    background-color: #465162;
-    display: block;
-    margin-left: 95px;
-    margin-top: 108px;
-    margin-right: 727px;
-    margin-bottom: 501px;
-    border: 1px solid #465162;
-    text-align: center;
-    justify-content: center;
-    padding: auto;
-    box-shadow: 10px 10px 0px black;
-    width: 627px;   
-    height: 184px;
-}
-
-h1 {
-    color: #82F5B2;
-    font-size: 40px;
-    font-family: 'Press Start 2P', cursive;
-    text-shadow: 4px 4px 0px black;
-}
-
-h2 { 
-    color: white;
-    font-size: 30px;
-    font-family: 'Press Start 2P', cursive;
-    text-shadow: 4px 4px 0px black;
-}
-
-.button1 {
-    background-color: #82F5B2;
-    display: inline-block;   
-    padding: 20px;   
-    box-shadow: 5px 5px 0px black;   
-    justify-content: center;
-    position: absolute;
-    width: 150px;
-    left: 185px;
-    top: 418px;
-    text-align: center;
-    transition: transform 100ms linear;
-}
-
-.button2 {
-    background-color: #82F5B2;
-    display: inline-block;   
-    padding: 20px;   
-    box-shadow: 5px 5px 0px black;   
-    justify-content: center;
-    position: absolute;
-    width: 150px;
-    left: 463px;
-    top: 418px; 
-    text-align: center;
-    transition: transform 100ms linear;
 }
