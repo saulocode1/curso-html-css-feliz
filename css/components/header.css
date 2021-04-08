@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: space-between;   /* coloca nas extremidades */
+    background-color: #918EF4;
+    border-bottom: 10px solid black;   /* borda inferior */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center; 
+}
