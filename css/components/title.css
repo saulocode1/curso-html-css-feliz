@@ -4,3 +4,10 @@
     font-family: 'Press Start 2P', sans-serif;
     text-shadow: 4px 4px 0 black;
 }
+
+.title.-second {  /* sem espaço, pois espaço é seletor filho. sem espaço = pegas elemento com as duas classes */
+    color: white;
+    text-shadow: none;
+    text-align: center;
+    margin-top: 50px;
+}
