@@ -1,0 +1,22 @@
+.main-title {
+    font-family: 'Press Start 2P', sans-serif;
+    color: #82F5B2;
+    font-size: 40px;
+    text-shadow: 4px 4px 0 black;
+}
+
+.main-title.-second {  /* sem espaço, pois espaço é seletor filho. sem espaço = pegas elemento com as duas classes */
+    color: black;
+    text-shadow: none;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.main-title.-third {
+    color: white;
+    text-shadow: none;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}

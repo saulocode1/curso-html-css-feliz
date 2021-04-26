@@ -1,0 +1,21 @@
+.button-arrow {
+    width: 50px;
+    height: 50px;
+    background-color: #82F5B2;
+    cursor: pointer;  /* cursor muda quando passa o mouse em cima */
+    box-shadow: 5px 5px 0px black;
+    position: relative;
+    
+}
+.button-arrow .content {
+    display: none;
+}
+
+.button-arrow .arrow {
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

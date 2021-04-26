@@ -11,42 +11,118 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/components/icon.css">   
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/banner.css">
-    <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/title.css">   
-    <link rel="stylesheet" href="css/components/subtitle.css">
-    <link rel="stylesheet" href="css/components/box.css">
-    <link rel="stylesheet" href="css/components/action.css">
+    <link rel="stylesheet" href="css/reset.css">   
+    <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/main-action.css">
+    <link rel="stylesheet" href="css/components/banner-section.css">
+    <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/main-title.css">   
+    <link rel="stylesheet" href="css/components/main-subtitle.css">
+    <link rel="stylesheet" href="css/components/main-box.css">
+    <link rel="stylesheet" href="css/components/skill-section.css">
+    <link rel="stylesheet" href="css/components/skill-tec.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="css/components/text-skill.css">
+    <link rel="stylesheet" href="css/components/projects-section.css">
+    <link rel="stylesheet" href="css/components/about-section.css">
+    <link rel="stylesheet" href="css/components/about-text.css">
     
 </head>
 <body class="body">
-    <header class="header">
-        <img class="icon" src="assets/img/logo.jpg" alt="Logo Saulo Veiga">
+    <header class="main-header">
+        <img src="assets/img/logo.jpg" alt="Logo Saulo Veiga">
         
         <nav class="navigation">
-            <a class="action" href="" lang="en">Skills</a>
-            <a class="action" href="">Projetos</a>
-            <a class="action" href="">Sobre</a>
-            <a class="action" href="">Contatos</a>
-            <a class="button" href="" lang="en">Download CV</a>
+            <a class="main-action" href="" lang="en">Skills</a>
+            <a class="main-action" href="">Projetos</a>
+            <a class="main-action" href="">Sobre</a>
+            <a class="main-action" href="">Contatos</a>
+            <a class="main-button" href="" lang="en">Download CV</a>
         </nav>
     </header>
-    <section class="banner">
+    <section class="banner-section">
         <div class="wrapper"> <!-- div para "embrulhar"/envolver -->
-            <div class="box">
-                <h1 class="title">Saulo Veiga</h1> <!-- heading 1 -->
-                <h2 class="subtitle">FrondEnd Developer</h2>
+            <div class="main-box">
+                <h1 class="main-title">Saulo Veiga</h1> <!-- heading 1 -->
+                <h2 class="main-subtitle">FrondEnd Developer</h2>
             </div>
             <div class="navigation">
-                <a class="button" href="" lang="en">Download CV</a>
-                <a class="button" href="">Contatos</a>
+                <a class="main-button" href="" lang="en">Download CV</a>
+                <a class="main-button" href="">Contatos</a>
             </div>
         </div>
     </section>
 
-    <h2 class="title -second">Skills</h2> <!-- -second = variação de um componente (title) -->
+    <section class="skill-section">
+        <h2 class="main-title -second">Skills</h2> <!-- -second = variação de um componente (title) -->
+
+        <div class="wrapper-skill"> <!-- envolver skills -->
+            <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
+                <img class="icon" src="img/ico_html5.png" alt="Logo HTML5 em pixel art">
+                <div class="right">
+                    <h3 class="title">HTML</h3> <!-- description title -->           
+                    <progress class="progress-bar" max="100" value="30">
+                        30%
+                    </progress>
+                </div>    
+            </article>
+
+            <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
+                <img class="icon" src="img/ico_css3.png" alt="Logo CSS3 em pixel art">
+                <div class="right">
+                    <h3 class="title">CSS</h3> <!-- description title -->           
+                    <progress class="progress-bar" max="100" value="30">
+                        30%
+                    </progress>
+                </div>    
+            </article>
+
+            <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
+                <img class="icon js" src="img/ico_js.png" alt="Logo JavaScript em pixel art">
+                <div class="right">
+                    <h3 class="title">JavaScript</h3> <!-- description title -->           
+                    <progress class="progress-bar" max="100" value="30">
+                        30%
+                    </progress>
+                </div>    
+            </article>
+
+            <article class="skill-tec"> <!-- pode ser usado em diferentes contextos -->             
+                <img class="icon python" src="img/ico_python.png" alt="Logo Python em pixel art">
+                <div class="right">
+                    <h3 class="title">Python</h3> <!-- description title -->           
+                    <progress class="progress-bar" max="100" value="30">
+                        30%
+                    </progress>
+                </div>    
+            </article>
+        </div>
+        <p class="text-skill">Comecei estudando <strong>Python</strong> pelo Curso em Vídeo e estou concluindo o terceiro módulo, que ensina sobre listas, tuplas, funções e dicionário. Estudo <strong>HTML</strong> e <strong>CSS</strong> pelo mesmo curso e também pelo curso do Marco Bruno, onde estou aprendendo a desenvolver este site. Tive meu primeiro contato com <strong>JavaScript</strong> na Imersão Dev, feito pela Alura, onde aprendi os principais conceitos da linguagem. </p>
+    </section>
+
+    <section class="projects-section">
+        <h2 class="main-title -second">Projetos</h2>
+
+        <div class="wrapper-projects">
+            <figure>
+                <a href="https://codepen.io/sauloveigr/full/eYgRJZd" target="_blank" rel="external"><img class="logo" src="img/logo_alura.png" alt=""></a>
+                <figcaption class="caption">Imersão Alura</figcaption>
+            </figure>   
+
+            <figure>
+                <a href="https://sauloveigr.github.io"><img class="logo" src="img/logo_project.png" alt=""></a>
+                <figcaption class="caption">Portfólio</figcaption>
+            </figure>
+        </div>    
+
+    </section>
+
+    <section class="about-section">
+        <h2 class="main-title -second">Sobre</h2>
+        <p class="about-text">Meu nome é Saulo Veiga. Estou cursando Física, e recentemente me apaixonei pelo mundo da programação. Comecei nesse ramo com a linguagem Python e atualmente estudo HTML5, CSS3 e JavaScript. Pretendo seguir na área de desenvolvimento web e ser um profissional competente, capaz de solucionar problemas e realizar grandes projetos.</p>
+     
+    </section>
+
 </body>
 </html>

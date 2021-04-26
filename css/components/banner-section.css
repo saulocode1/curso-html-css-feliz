@@ -1,0 +1,25 @@
+.banner-section {
+    background-image: url(/assets/img/papel1.jpg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 10px solid black;
+    height: 734px;
+    padding-left: 60px;
+    padding-top: 100px;
+}
+
+.banner-section .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+}
+
+.banner-section .main-box {
+    margin-bottom: 40px;
+}
+
+.banner-section .navigation {
+    display: flex;
+    justify-content: space-around;
+}
