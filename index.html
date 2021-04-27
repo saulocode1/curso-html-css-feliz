@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saulo Veiga</title>
 
-    <link rel="shortcut icon" href="assets/img/logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logo.jpg" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -27,6 +27,9 @@
     <link rel="stylesheet" href="css/components/projects-section.css">
     <link rel="stylesheet" href="css/components/about-section.css">
     <link rel="stylesheet" href="css/components/about-text.css">
+    <link rel="stylesheet" href="css/components/button-arrow.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
     
 </head>
 <body class="body">
@@ -106,12 +109,12 @@
 
         <div class="wrapper-projects">
             <figure>
-                <a href="https://codepen.io/sauloveigr/full/eYgRJZd" target="_blank" rel="external"><img class="logo" src="assets/logo_alura.png" alt=""></a>
+                <a href="https://codepen.io/sauloveigr/full/eYgRJZd" target="_blank" rel="external"><img class="card" src="assets/logo_alura.png" alt=""></a>
                 <figcaption class="caption">Imersão Alura</figcaption>
             </figure>   
 
             <figure>
-                <a href="https://sauloveigr.github.io"><img class="logo" src="assets/logo_project.png" alt=""></a>
+                <a href="https://sauloveigr.github.io"><img class="card" src="assets/logo_project.png" alt=""></a>
                 <figcaption class="caption">Portfólio</figcaption>
             </figure>
         </div>    
@@ -119,9 +122,58 @@
     </section>
 
     <section class="about-section">
+        
         <h2 class="main-title -second">Sobre</h2>
+        
+        <button class="button-arrow -left"><img class="arrow" src="assets/arrow-left.png" alt="arrow left"></button>
+        
+        <section class="main-carousel">
+            
+
+            <figure class="node-card">
+                <figcaption class="title">2012</figcaption>
+                    <div class="logo">
+                        <img src="assets/logo-locaweb.png" alt="Logo da locaweb">
+                    </div>
+            </figure>
+
+            <figure class="node-card -clean">
+                <figcaption class="title">2014</figcaption>
+                    <div class="logo -clean">
+                        <img src="assets/logo-caelum.png" alt="Logo da caelum">
+                    </div>
+            </figure>
+
+            <figure class="node-card -first">
+                <figcaption class="title">2016</figcaption>
+                    <div class="logo">
+                        <img src="assets/logo-getninjas.png" alt="Logo da getninjas">
+                    </div>
+            </figure>
+
+            <figure class="node-card">
+                <figcaption class="title">2018</figcaption>
+                    <div class="logo">
+                        <img src="assets/logo-impulso.png" alt="Logo da impulso">
+                    </div>
+            </figure>
+            
+            <figure class="node-card -first">
+                <figcaption class="title">2019</figcaption>
+                    <div class="logo">
+                        <img src="assets/logo-collabcode.png" alt="Logo da impulso">
+                    </div>
+            </figure>
+
+        </section>
+
+        <button class="button-arrow -right"><img class="arrow" src="assets/arrow-right.png" alt="arrow right"></button>
+
+        
+        
+
         <p class="about-text">Meu nome é Saulo Veiga. Estou cursando Física, e recentemente me apaixonei pelo mundo da programação. Comecei nesse ramo com a linguagem Python e atualmente estudo HTML5, CSS3 e JavaScript. Pretendo seguir na área de desenvolvimento web e ser um profissional competente, capaz de solucionar problemas e realizar grandes projetos.</p>
-     
+
     </section>
 
 </body>

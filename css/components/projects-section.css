@@ -10,13 +10,13 @@
     color: white;
 }
 
-.projects-section .logo {
+.projects-section .card {
     box-shadow: 10px 10px 0 white;
     transition: transform 100ms linear;
     margin-bottom: 15px;
 }
 
-.logo:hover {
+.card:hover {
     transform: scale(1.03);
 }
 

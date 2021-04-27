@@ -4,9 +4,20 @@
     background-color: #82F5B2;
     cursor: pointer;  /* cursor muda quando passa o mouse em cima */
     box-shadow: 5px 5px 0px black;
-    position: relative;
-    
+    position: absolute;
+    top: 275px;
 }
+
+.button-arrow.-right {
+    position: absolute;
+    right: 20px;
+}
+
+.button-arrow.-left {
+    position: absolute;
+    left: 20px;
+}
+
 .button-arrow .content {
     display: none;
 }

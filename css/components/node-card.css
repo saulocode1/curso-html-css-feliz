@@ -1,5 +1,18 @@
 .node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
 
+.node-card::before {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    height: 0px;
+    width: 40px;
+    border-top: 4px dashed black;
+    transform: rotate(90deg) translateX(55px);
 }
 
 .node-card .title {
@@ -7,4 +20,25 @@
     color: #82F5B2;
     font-weight: 400;
     font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.node-card .logo {
+    display: flex;   /* alinhar horizontal */
+    align-items: center;  /* alinhar horizontal */
+    height: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #CEB02A;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.node-card.-clean .logo {
+    padding: 0;
+    border: none;
+}
+
+.node-card.-first .logo {
+    background-color: #F25A70;
 }
