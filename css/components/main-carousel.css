@@ -3,6 +3,7 @@
     position: relative;
     padding-left: 80px;
     padding-right: 80px;
+    overflow: hidden;
 }
 
 .main-carousel::after {
@@ -16,10 +17,13 @@
     display: block;
 }
 
-.main-carousel .items {
+.main-carousel .items { 
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main-carousel .elements {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    transform: translateX(400px);
-    overflow: hidden;
 }
