@@ -26,4 +26,5 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    transition: transform 300ms ease-in-out;
 }

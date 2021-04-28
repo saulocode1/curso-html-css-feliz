@@ -8,13 +8,11 @@
     top: 275px;
 }
 
-.button-arrow.-right {
-    position: absolute;
+.button-arrow.-right {    
     right: 20px;
 }
 
 .button-arrow.-left {
-    position: absolute;
     left: 20px;
 }
 
