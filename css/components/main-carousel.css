@@ -3,8 +3,6 @@
     position: relative;
     padding-left: 80px;
     padding-right: 80px;
-    display: flex;
-    justify-content: space-around;
 }
 
 .main-carousel::after {
@@ -16,4 +14,12 @@
     background-color: black;
     position: absolute;
     display: block;
+}
+
+.main-carousel .items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transform: translateX(400px);
+    overflow: hidden;
 }
