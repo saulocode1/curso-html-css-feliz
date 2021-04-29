@@ -1,0 +1,17 @@
+base {
+    --color-first: #82F5B2;
+    --color-first: #918EF4;
+    --color-first: #201F36;
+}
+
+blacks {
+    --color-black-first: #000000;
+    --color-black-second: #3A4042;
+    --color-black-third: #465162;
+}
+
+status {
+    --color-error: #BA1F33;
+    --color-warning: #CEB02A;
+    --color-success: #62C370;
+}
