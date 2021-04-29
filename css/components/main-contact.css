@@ -1,4 +1,7 @@
 .main-contact { 
     background-color: #465162;
     height: 93vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

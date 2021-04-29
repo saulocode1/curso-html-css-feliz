@@ -14,5 +14,17 @@
 }
 
 .main-button:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
+}
+
+.main-button.-second {
+    width: 1010px;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.main-button.-second:hover {
+    transform: scale(1.01);
 }

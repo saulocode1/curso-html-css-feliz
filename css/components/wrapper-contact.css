@@ -1,19 +1,34 @@
+.main-contact .wrapper-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1010x;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 #inputName, #inputEmail  {
     border: 5px solid black;
     width: 1000px;
     height: 30px;
+    outline: none;
+    margin-bottom: 15px;
+    font: 1em 'Fira Code', Arial, Helvetica, sans-serif;
 }
 
 #inputText {
     border: 5px solid black;
     width: 1000px;
     height: 300px;
+    outline: none;
+    margin-bottom: 15px;
+    font: 1em 'Fira Code', Arial, Helvetica, sans-serif;
 }
 
-.main-contact .wrapper-contact {
-    display: flex;
-    flex-direction: column;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+
+.label {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
 }
