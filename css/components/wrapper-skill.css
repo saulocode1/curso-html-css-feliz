@@ -4,6 +4,7 @@
     max-width: 960px; /* responsividade. no max 960px */
     margin-left: auto;
     margin-right: auto;
+    margin-top: 80px;
 }
 
 .wrapper-skill .skill-tec {
