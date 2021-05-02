@@ -7,7 +7,6 @@
     margin-right: auto;
 }
 
-
 #inputName, #inputEmail  {
     border: 5px solid black;
     width: 1000px;
@@ -25,7 +24,6 @@
     margin-bottom: 15px;
     font: 1em 'Fira Code', Arial, Helvetica, sans-serif;
 }
-
 
 .label {
     color: white;
