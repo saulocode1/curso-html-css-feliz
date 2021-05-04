@@ -1,6 +1,6 @@
-const inputName = document.getElementById('inputName');
-const inputEmail = document.getElementById('inputEmail');
-const inputText = document.getElementById('inputText');
+const inputName = document.getElementById('name');
+const inputEmail = document.getElementById('email');
+const inputText = document.getElementById('message');
 
 inputName.addEventListener('focus', () => {
     inputName.style.borderColor = '#918EF4';

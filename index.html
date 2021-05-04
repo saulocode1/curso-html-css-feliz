@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/main-contact.css">
     <link rel="stylesheet" href="css/components/wrapper-contact.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
     
 </head>
 <body class="body">
@@ -185,16 +186,16 @@
         <input type="hidden" name="accessKey" value="88dbd757-8a6e-4754-994e-30d619646671">
         <h1 class="main-title -third">Contatos</h1>
         <div class="wrapper-contact">
-            <label class="label" for="name">Nome:</label>
-            <input type="text" id="inputName" name="name" placeholder="Digite seu nome" required maxlength="25" minLength="2">
+            <label class="main-label" for="name">Nome</label> <!-- Descrever input -->
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required maxlength="25" minLength="2">
 
-            <label class="label" for="email" aria-placeholder="">Email:</label>
-            <input type="email" id="inputEmail" name="email" placeholder="Digite seu e-mail" required maxlength="50">
+            <label class="main-label" for="email" aria-placeholder="">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required maxlength="50">
 
-            <label class="label" for="message">Mensagem:</label>
-            <textarea id="inputText" name="message" required maxlength="100"></textarea>
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea id="message" name="message" required maxlength="100"></textarea>
         </div>
-        <button class="main-button -second">Enviar</button>
+        <button type="submit" class="main-button -second">Enviar</button>
     </form>
     
 
