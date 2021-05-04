@@ -7,11 +7,3 @@
     margin-right: auto;
 }
 
-#message {
-    border: 5px solid black;
-    width: 1000px;
-    height: 300px;
-    outline: none;
-    margin-bottom: 15px;
-    font: 1em 'Fira Code', Arial, Helvetica, sans-serif;
-}
