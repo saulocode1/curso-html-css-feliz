@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
-    <link rel="stylesheet" href="css/components/main-contact.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
     <link rel="stylesheet" href="css/components/wrapper-contact.css">
     <link rel="stylesheet" href="css/components/main-label.css">
     <link rel="stylesheet" href="css/components/main-input.css">
@@ -183,10 +183,9 @@
 
     </section>
 
-    <form action="https://api.staticforms.xyz/submit" method="post" class="main-contact">
+    <form action="https://api.staticforms.xyz/submit" method="post" class="main-form">
         <input type="hidden" name="accessKey" value="88dbd757-8a6e-4754-994e-30d619646671">
         <h1 class="main-title -third">Contatos</h1>
-        <div class="wrapper-contact">
             <label class="main-label" for="name">Nome</label> <!-- Descrever input -->
             <input class="main-input" type="text" id="name" name="name" placeholder="Digite seu nome" required maxlength="25" minLength="2">
 
@@ -195,8 +194,8 @@
 
             <label class="main-label" for="message">Mensagem</label>
             <textarea class="main-input -textArea" id="message" name="message" required maxlength="100"></textarea>
-        </div>
-        <button type="submit" class="main-button -second">Enviar</button>
+
+            <button type="submit" class="main-button -second">Enviar</button>
     </form>
     
 
