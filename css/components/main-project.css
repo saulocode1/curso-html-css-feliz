@@ -1,16 +1,17 @@
-.projects-section {
-    height: 520px;
+.main-project {
+    height: 500px;
     background-color: black;
     border-bottom: 10px solid #82F5B2;
+    padding-top: 50px;
+   
 }
 
-.projects-section .main-title {
-    padding-top: 50px;
-    padding-bottom: 40px;
+.main-project .main-title { 
+    padding-bottom: 60px;
     color: white;
 }
 
-.projects-section .card {
+.main-project .card {
     box-shadow: 10px 10px 0 white;
     transition: transform 100ms linear;
     margin-bottom: 15px;
@@ -28,7 +29,7 @@
     justify-content: space-between;
 }
 
-.projects-section .caption {
+.main-project .caption {
     color: white;
     font-family: 'Fira Code', Arial, Helvetica, sans-serif;
     font-size: 20px;

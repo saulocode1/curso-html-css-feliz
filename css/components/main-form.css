@@ -1,8 +1,11 @@
 .main-form { 
     background-color: #465162;
-    height: 93vh;
-    display: flex;
-    flex-direction: column;
+    height: 86vh;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 50px;
+}
+
+.main-form .main-title {
+    padding-bottom: 20px;
 }
