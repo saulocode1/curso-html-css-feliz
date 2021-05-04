@@ -7,15 +7,6 @@
     margin-right: auto;
 }
 
-#name, #email  {
-    border: 5px solid black;
-    width: 1000px;
-    height: 30px;
-    outline: none;
-    margin-bottom: 15px;
-    font: 1em 'Fira Code', Arial, Helvetica, sans-serif;
-}
-
 #message {
     border: 5px solid black;
     width: 1000px;
